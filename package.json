@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.2",
+    "node": "^21.2.0"
+  },
+  "scripts": {
+    "start": "node_modules/node/bin/node index.js"
+  }
+}

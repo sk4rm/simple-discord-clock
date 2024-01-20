@@ -1,5 +1,8 @@
+require('dotenv').config()
+
 // Require Discord.js and define discord TOKEN
 const TOKEN = process.env['DISCORD_TOKEN'];
+console.log(TOKEN)
 const clientID = process.env['CLIENT_ID'];
 const guildID = process.env['SAO_GUILD_ID'];
 // const ytdl = require('ytdl-core');
